@@ -1,0 +1,44 @@
+body
+{
+	font-family: 'Arvo', serif;
+}
+/**/
+/*font-family: 'Open Sans', sans-serif;*/
+.nav.navbar-nav
+{
+	background-color: blue;
+}
+.nav.navbar-nav, .dropdown a
+{
+	color:white;
+}
+.nav,.navbar-nav,.dropdown,.dropdown-toggle:hover
+{
+	display:block;
+}
+/*.dropdown-menu
+{
+
+	display: block;
+}*/
+.main
+{
+	clear:both;
+	position: relative;
+	left: 30%;
+	font-family: 'Open Sans', sans-serif;
+}
+.main ul li
+{
+	list-style: none;
+	text-decoration: none;
+}
+.main ul li a
+{
+	color: red;
+}
+.main ul li a:hover
+{
+	cursor: pointer;
+	background-color: pink;
+}
